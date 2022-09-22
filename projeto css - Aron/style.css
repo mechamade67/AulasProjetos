@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    margin-top: 16px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    box-sizing: border-box;
+    padding-top: 10.5px;
+}
+
+nav ul{list-style: none;}
+
+nav ul li{
+    display: inline;
+    color: goldenrod;
+    border-top: solid #fae5ae;
+    border-bottom: solid #fae5ae;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+nav ul li:nth-child(2){
+    margin: 0 16px;
+}
+
+nav ul li:hover{
+    background-color: #fae5ae;
+    box-shadow:
+                0 0 8px #ee9004,
+                0 0 8px #ee9004,
+                0 0 10px #ee9004,
+                0 0 12px #ee9004;
+    border-radius: 8px;
+    color: gold;
+    transition: 1s;
+}
+
+section div.redes img:nth-child(1) {
+    margin-right: 32px;
+}
